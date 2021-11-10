@@ -8,44 +8,53 @@
   </head>
   <body></body>
   <script>
-        // The JavaScript is a "dynamically typed" language, we not have to specify the data types at variable declaration unlike C/C++ or Java. Variables can store any data type in it.
-        // There are total 8 data types in JavaScript. These are as follows-
+    // The JavaScript is a "dynamically typed" language, we not have to specify the data types at variable declaration unlike C/C++ or Java. Variables can store any data type in it.
+    // There are total 8 data types in JavaScript. These are as follows-
 
-        // 1.Number
-        // 2.String
-        // 3.BigInt
-        // 4.Boolean
-        // 5.Null
-        // 6.Undefined
-        // 7.Object
-        // 8.Symbol
+    // 1.Number
+    // 2.String
+    // 3.BigInt
+    // 4.Boolean
+    // 5.Null
+    // 6.Undefined
+    // 7.Object
+    // 8.Symbol
 
-        //// 1.Number//////
+    //// 1.Number//////
 
-        //     Numbers as the name suggest, it used to store numbers. Numbers can be integers, fractions, or Infinity/-Infinity and NaN(Not a Number).
+    //     Numbers as the name suggest, it used to store numbers. Numbers can be integers, fractions, or Infinity/-Infinity and NaN(Not a Number).
 
-        // Example-
-        let int = 123; // integer
-        let fraction = 1.2; // fraction
-        let infinity = Infinity; // Infinity
+    // Example-
+    let int = 123; // integer
+    let fraction = 1.2; // fraction
+    let infinity = Infinity; // Infinity
 
-        ///////// String/////////
-        // String is the type of data in which, there is a bunch of alphanumeric characters and other symbols are together. In other words, it is a group of characters. Strings are to be surrounded by quotes, single or double.
+    ///////// String/////////
+    // String is the type of data in which, there is a bunch of alphanumeric characters and other symbols are together. In other words, it is a group of characters. Strings are to be surrounded by quotes, single or double.
 
-        // Example-
-        let str = "abc123,./";
-        // string can have alphanumeric and other symbols
-        alert(
-          `The back-tics can used to use variables in in between the string like str is- ${str}!`
-        );
-        // The back-tics can used to use variables in in between the string like str is- abc123,./
+    // Example-
+    let str = "abc123,./";
+    // string can have alphanumeric and other symbols
+    alert(
+      `The back-tics can used to use variables in in between the string like str is- ${str}!`
+    );
+    // The back-tics can used to use variables in in between the string like str is- abc123,./
 
-
-       ///////// BigInt /////////
+    ///////// BigInt /////////
     //     BigInt is made to accommodate really large numbers which are more than 2^53 -1 or less -(2^53 -1) due to its technical limitations. They are represented by appending 'n' after the number.
 
     // Example-
     let bigint = 123456789123456789123456789n;
+
+    ///////// Boolean ////////////////////
+    // Boolean is used to represent true or false values. Sometimes we only two values for our function or we have to check some condition that is true or false.
+    // Boolean values can also come as a result of comparision.
+
+    // Example-
+    let isTrueOrFalse = true;
+    let firstIsGreaterOrNot = 7 > 9;
+    console.log(firstIsGreaterOrNot); // false
+
     
   </script>
 </html>
